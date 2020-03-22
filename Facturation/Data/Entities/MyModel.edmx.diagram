@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="65310b894b9c42e9911120d96ec68064" Name="Diagram1">
+        <EntityTypeShape EntityType="Facturation_DBModel.ADMINN" Width="1.5" PointX="7.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Facturation_DBModel.APPEL" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Facturation_DBModel.CLIENT" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Facturation_DBModel.CODE_ERREUR" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Facturation_DBModel.CODE_REPARATION" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Facturation_DBModel.FACTURATION" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Facturation_DBModel.INGENIEUR" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Facturation_DBModel.PIECE" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Facturation_DBModel.REPARATION" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Facturation_DBModel.SECRETAIRE" Width="1.5" PointX="7.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Facturation_DBModel.TYPE_APPEL" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="Facturation_DBModel.VILLE" Width="1.5" PointX="1.5" PointY="11" IsExpanded="true" />
+        <AssociationConnector Association="Facturation_DBModel.FK__APPEL__IdClient___34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="Facturation_DBModel.FK__FACTURATI__IdApp__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="Facturation_DBModel.FK__CLIENT__Id_Class__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="Facturation_DBModel.FK__FACTURATI__IdRep__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="Facturation_DBModel.FK__REPARATIO__IdIng__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="Facturation_DBModel.JOIN_APPEL_TYPEAPPEL" ManuallyRouted="false" />
+        <AssociationConnector Association="Facturation_DBModel.JOIN_FACTURATION_CODEERREUR" ManuallyRouted="false" />
+        <AssociationConnector Association="Facturation_DBModel.JOIN_REPARATION_CODEREPARATION" ManuallyRouted="false" />
+        <AssociationConnector Association="Facturation_DBModel.JOIN_REPARATION_PIECE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
